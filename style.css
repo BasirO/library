@@ -1,0 +1,76 @@
+body{
+  background-color: rgba(59,130,246,.5);
+}
+h2{
+padding-top: 4rem;
+text-align: center;
+font-weight: bolder;
+font-size: 30px;
+}
+input{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: lightgreen;
+  width: 10rem;
+
+}
+div.card-item{
+ margin-left: 100px;
+  padding: 30px;
+  display: inline-block;
+  margin: 4rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+.form-control{
+  width: 50%;
+}
+.show-item{
+  margin-top: 4rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 51%;
+  float: right;
+  margin-right: 35px;
+  padding: 10px;
+}
+h3{
+  text-align: center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: var(--spacing-sm);
+}
+
+.fa-github {
+  font-size: 24px;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+.lds-dual-ring.active {
+  display: block;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
